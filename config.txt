@@ -1,0 +1,21 @@
+{
+# 公众号配置
+# 公众号appId
+"app_id": "wx180b3edf0c325a15",
+# 公众号appSecret
+"app_secret": "02b7470b4a755879b90d30f2d2718d25",
+# 模板消息id
+"template_id": "Y99XYJwq4OefaYo_Ff9BKttJT2E7631fZbPseFWpGhY",
+# 接收公众号消息的微信号（user-id），如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
+"user": ["otIDa5xuKwZOMiOoQG-zgUyUcSsk","otIDa56fmAWNdwyXogUh2CzbH_9k"],
+
+# 所在省份
+"province" : "四川",
+# 所在城市
+"city": "成都",
+# 励志名言接口
+"lizhi_API":"e0393c6c5b6c6c0b29a4e7f56b0c7b38",
+# 天气预报接口
+"tianqi_API":"e0393c6c5b6c6c0b29a4e7f56b0c7b38",
+}
+
