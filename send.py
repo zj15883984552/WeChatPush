@@ -114,31 +114,31 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
                 "color": get_color()
             },
             "city": {
-                "value": city_name,
+                "value": "城市:  " + city_name,
                 "color": get_color()
             },
             "weather": {
-                "value": weather,
+                "value": "天气:  " + weather,
                 "color": get_color()
             },
             "min_temperature": {
-                "value": min_temperature,
+                "value": "最低气温:  " + min_temperature,
                 "color": get_color()
             },
             "max_temperature": {
-                "value": max_temperature,
+                "value": "最高气温:  " + max_temperature,
                 "color": get_color()
             },
             "lizhi": {
-                "value": lizhi,
+                "value": "早安寄语:  " + lizhi,
                 "color": get_color()
             },
             "pop": {
-                "value": pop,
+                "value": "降雨概率:  " + pop + "%",
                 "color": get_color()
             },
             "tips": {
-                "value": tips,
+                "value": "今日建议:  " + tips,
                 "color": get_color()
             }
         }
