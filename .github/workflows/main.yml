@@ -1,7 +1,7 @@
 name: '微信定时推送任务'
 on:
   schedule:
-    - cron: '05 01 * * *'
+    - cron: '00 00 * * *'
 permissions:
   contents: read
 jobs:
