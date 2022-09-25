@@ -110,11 +110,11 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
         "topcolor": "#FF0000",
         "data": {
             "date": {
-                "value": "{} {}".format(today, week),
+                "value": "今天是 {} {}".format(today, week),
                 "color": get_color()
             },
             "city": {
-                "value": "城市:  " + city_name,
+                "value": "所在城市:  " + city_name,
                 "color": get_color()
             },
             "weather": {
