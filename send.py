@@ -114,11 +114,7 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
                 "color": get_color()
             },
             "city": {
-                "value": "所在城市:  " + city_name,
-                "color": get_color()
-            },
-            "weather": {
-                "value": "天气:  " + weather,
+                "value": city_name + "天气:  " + weather,
                 "color": get_color()
             },
             "min_temperature": {
@@ -130,7 +126,7 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
                 "color": get_color()
             },
             "lizhi": {
-                "value": "早安寄语:  " + lizhi,
+                "value": lizhi,
                 "color": get_color()
             },
             "pop": {
