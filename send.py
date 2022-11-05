@@ -88,7 +88,7 @@ def tip():
         res = conn.getresponse()
         data = res.read()
         data = json.loads(data)
-        pop = data["newslist"][0]["pop"]
+        pop = data["newslist"][0]["pcpn"]
         tips = data["newslist"][0]["tips"]
         return pop,tips
     else:
@@ -130,7 +130,7 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
                 "color": get_color()
             },
             "pop": {
-                "value": "降雨概率:  " + pop + "%",
+                "value": "降雨量:  " + pop + "%",
                 "color": get_color()
             },
             "tips": {
